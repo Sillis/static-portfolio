@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.fullview {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.fullview > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fullview > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+img {
+    max-height: 175px;
+    max-width: 175px;
+    transition: all .2s ease-in-out;
+}
+
+img:hover {
+    transform: scale(2);
+}
+
+.section { 
+    margin: 20px; 
+    align-items: center;
+}
+
+.segmentOneClass { 
+    background-color: #d72631; 
+}
+
+.segmentTwoClass { 
+    background-color: #a2d5c6; 
+}
+
+.segmentThreeClass { 
+    background-color: #077b8a; 
+}
+
+.segmentFourClass { 
+    background-color: #5c3c92; 
+}
+
+.imagelink {
+    display: flex;
+    justify-content: center;
+}
